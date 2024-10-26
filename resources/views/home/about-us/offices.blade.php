@@ -3,7 +3,7 @@
 @section('body')
     <!-- Internal CSS -->
     <style>
- 
+
         .office-banner-caption {
             text-align: center;
             color: #fff;
@@ -100,7 +100,7 @@
                 <!-- Office 1 Start -->
                 <div class="col-md-4 office-item">
                     <div class="office-item__wrapper">
-                        <img src="{{ asset('frontend/images/office-1.jpg') }}" alt="Office 1" class="office-item__image">
+                        <img src="{{ asset('frontend/images/office-1.jpg') }}" alt="Main Headquarters" class="office-item__image">
                         <div class="office-item__content">
                             <h4 class="office-item__title">Main Headquarters</h4>
                             <p class="office-item__address">1234 Main Street, Kigali, Rwanda</p>
