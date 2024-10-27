@@ -14,6 +14,5 @@ class Question extends Model
         'choices',
         'answers',
         'marks',
-        'duration',
     ];
 }

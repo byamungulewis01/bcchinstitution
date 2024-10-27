@@ -41,14 +41,13 @@
                                     @endif
                                 </td>
 
-                                <td>{{ $item->students() }}</td>
                                 <td>
                                     @if($item->students() == 0)
                                     {{ $item->students() }} Student
                                     @elseif($item->students() == 1)
-                                    <a href="">{{ $item->students() }} Student</a>
+                                    {{ $item->students() }} Student
                                     @else
-                                   <a href=""> {{ $item->students() }} Students</a>
+                                    {{ $item->students() }} Students
                                     @endif
                                 </td>
 

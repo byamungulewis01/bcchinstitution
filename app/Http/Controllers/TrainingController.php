@@ -126,7 +126,6 @@ class TrainingController extends Controller
             'choices' => 'required|array',
             'answers' => 'required|array',
             'marks' => 'required',
-            'duration' => 'required',
         ]);
 
         $choices = implode('//next//', $request->choices);
@@ -138,7 +137,6 @@ class TrainingController extends Controller
                 'choices' => $choices,
                 'answers' => $answers,
                 'marks' => $request->marks,
-                'duration' => $request->duration,
                 'training_id' => $id,
             ]);
 
@@ -154,7 +152,6 @@ class TrainingController extends Controller
             'choices' => 'required|array',
             'answers' => 'required|array',
             'marks' => 'required',
-            'duration' => 'required',
 
         ]);
 
@@ -167,7 +164,6 @@ class TrainingController extends Controller
                 'choices' => $choices,
                 'answers' => $answers,
                 'marks' => $request->marks,
-                'duration' => $request->duration,
             ]);
 
             return back()->with('success', 'Question Updated Successfully');

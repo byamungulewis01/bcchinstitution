@@ -8,7 +8,7 @@
 
         <div class="row mb-3">
             <!-- Invoice -->
-            <div class="col-xl-5">
+            <div class="col-12">
                 <div class="card h-100">
                     <div class="card-body">
                         <h4 class="fw-semibold mb-2">{{ $training->title }} </h4>
@@ -17,7 +17,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-7">
+        </div>
+        <div class="row mb-3">
+            <div class="col-12">
                 <div class="card mb-4 h-100">
                     <div class="card-header">
                         <h4 class="card-title mb-0">List of modules
@@ -384,7 +386,7 @@
                                                                 value="{{ $item->marks }}" class="form-control"
                                                                 placeholder="Marks">
                                                         </div>
-                                            
+
                                                         <div class="col-4">
                                                             <br>
                                                             <button type="submit"
